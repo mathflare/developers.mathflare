@@ -1,78 +1,25 @@
-﻿:root {
-    /*Our dark grey*/
-    --liquido: #23272B;
-}
-body {
+﻿body {
     font-family: 'Poppins', sans-serif !important;
-    background-color: var(--liquido);
-}
-.content {
-    margin: 100px;
-}
-@media screen and (max-width: 900px) {
-    .content {
-        margin-left: 20px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+    background-color: #23272B;
+    color: white;
 }
 nav {
     /*Make tha navbar be on top of the contents*/
-    z-index: 10 !important;
-}
-.dead-center {
-    /*Use this class for the home page only*/
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1 !important;
-}
-.center {
-    /*Use this class for all the centering*/
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    z-index: 1 !important;
+    z-index: 99999999 !important;
 }
 ::selection {
-    background-color: var(--white);
-    color: var(--black);
-}
-.tools {
-    display: inline-flex;
-    padding: 5px;
-    border-radius: 5px;
-    color: var(--white);
-    background-color: var(--primary);
-}
-.host {
-    display: inline-flex;
-    padding: 5px;
-    border-radius: 5px;
-    color: var(--white);
-    background-color: var(--danger);
-}
-.mit {
-    display: inline-flex;
-    padding: 5px;
-    border-radius: 5px;
-    color: var(--black);
-    background-color: var(--warning);
-}
-.security {
-    display: inline-flex;
-    padding: 5px;
-    border-radius: 5px;
-    color: var(--white);
-    background-color: var(--danger);
+    background-color: white;
+    color: black;
 }
 a {
-    color: var(--warn)
+    color: inherit;
 }
 a:hover {
-    color: var(--white)
+    color: inherit;
+}
+.title {
+    display: inline-flex;
+    background-color: var(--danger);
+    padding: 5px;
+    border-radius: 5px;
 }
