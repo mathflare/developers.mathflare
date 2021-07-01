@@ -32,7 +32,7 @@
                         <a href="" class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="bi bi-link-45deg"></i>
                             Links
-                            <i class="bi bi-caret-down-fill text-white"></i>
+                            <i class="bi bi-caret-down-fill"></i>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a href="https://github.com/mathflare" class="dropdown-item"><i class="bi bi-github"></i> GitHub <span class="badge badge-success">Verified</span></a>
@@ -55,20 +55,18 @@
         <p class="text-warning">Find Instructions on how to contribute <a href="https://github.com/mathflare/mathflare/blob/main/CONTRIBUTING.md#contributing"><u>here</u></a></p>
         <h5 class="title">Tools</h5>
         <ul class="text-white">
-            <li><i class="fab fa-js-square"></i> jQuery 3.6</li>
-            <li><i class="bi bi-bootstrap-fill"></i> Bootstrap 5</li>
-            <li><i class="bi bi-terminal-fill"></i> Visual Studio 2019</li>
-            <li><i class="bi bi-terminal-fill"></i> Visual Studio Code</li>
-            <li><i class="fab fa-git-alt"></i> Git 2.3</li>
-            <li><i class="fab fa-html5"></i> HTML 5</li>
-            <li><i class="fab fa-css3-alt"></i> CSS 2.1</li>
-            <li><i class="fab fa-font-awesome"></i> Font Awesome 5.0 (in developers.mathflare.tk only)</li>
+            <li><i class="fab fa-js-square text-primary"></i> TypeScript</li>
+            <li><i class="bi bi-bootstrap-fill text-purple"></i> Bootstrap 5</li>
+            <li><i class="bi bi-bootstrap-fill text-purple"></i> Bootstrap Icons 5.1</li>
+            <li><i class="fab fa-js-square text-warning"></i> jQuery 3.6 (bound to be replaced by <code>jquery3.6.0.slim.min.js</code>)</li>
+            <li><i class="bi bi-terminal-fill text-primary"></i> Visual Studio 2019</li>
+            <li><i class="bi bi-terminal-fill text-primary"></i> Visual Studio Code</li>
+            <li><i class="fab fa-git-alt text-danger"></i> Git 2.3</li>
         </ul>
         <h5 class="title">Hosted On</h5>
         <ul class="text-white">
-            <li><i class="fab fa-cloudflare"></i> Cloudflare</li>
-            <li><i class="fab fa-github"></i> GitHub Pages</li>
-            <li><i class="fas fa-network-wired"></i> Netlify(PR previewing only)</li>
+            <li><i class="fab fa-cloudflare text-orange"></i> Cloudflare</li>
+            <li><i class="fas fa-network-wired text-success"></i> Netlify(PR previewing only)</li>
         </ul>
         <h5 class="title">Liscence</h5>
         <ul class="text-white">
@@ -78,6 +76,14 @@
         <ul class="text-white">
             <li><i class="bi bi-shield-exclamation"></i> <a href="https://github.com/mathflare/mathflare/blob/main/SECURITY.md#reporting-a-vulnerability"><u>Submit a Security Vulnerability</u></a></li>
         </ul>
+        <h5 class="title">Run Locally</h5>
+        <ol>
+            <li>Clone the repository from github</li>
+            <li>Assuming you <a href="https://nodejs.org/en/download/" target="_blank"><u>npm</u></a> installed, run <code>npm install</code> and then <code>npm start</code></li>
+            <li>Assuming you have <a href="https://www.npmjs.com/package/typescript" target="_blank"><u>TypeScript</u></a> installed, run <code>tsc -w</code> (in watch mode so it automagically compiles the JavaScript files)</li>
+        </ol>
+        <h5 class="title">Contributors Needed!</h5>
+        <p>If you think are able to cooperate and have some spare time, why don't you contribute to our project?</p>
     </div>
     <script src="Scripts/jquery-3.0.0.js"></script>
     <script src="Scripts/bootstrap.js"></script>

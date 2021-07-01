@@ -23,3 +23,9 @@ a:hover {
     padding: 5px;
     border-radius: 5px;
 }
+.text-purple {
+    color: #7952B3 !important;
+}
+.text-orange {
+    color: #E87A1E !important;
+}
